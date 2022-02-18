@@ -1,0 +1,20 @@
+.conclui-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.conclui-cadastro-icone {
+    display: block;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-bottom: 1rem;
+    background-image: url(../img/denied.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cartao-titulo {
+    font-size: 25px;
+}

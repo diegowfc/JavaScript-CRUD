@@ -1,0 +1,58 @@
+.modal {
+    background-color: #4D4D4D;
+    border-radius: 10px;
+    padding: 1.75rem;
+    box-sizing: border-box;
+    max-width: 22.5rem;
+    position: relative;
+}
+
+.modal-container {
+    background-color: #4d4d4d33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.25s;
+}
+
+.modal-titulo {
+    font-size: 28px;
+    color: #df2525;
+    margin-bottom: 1rem;
+}
+
+.modal-botao {
+    font-size: 28px;
+}
+
+.modal-texto {
+    margin-bottom: 3.875rem;
+}
+
+.modal-botao-confirmar {
+    color: #df2525;
+    margin-right: 2.25rem;
+}
+
+.modal-botao-container {
+    display: flex;
+}
+
+.modal-fechar {
+    position: absolute;
+    display: block;
+    height: 1rem;
+    width: 1rem;
+    top: 1.75rem;
+    right: 1.75rem;
+}
+
+.modal-fechado {
+    left: -100vw;
+    transition: .25s;
+}

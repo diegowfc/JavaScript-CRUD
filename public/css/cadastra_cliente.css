@@ -1,0 +1,73 @@
+body {
+    background-color: #d6eaff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabecalho-container {
+    box-shadow: rgba(62, 183, 240, 0.8) 0 0 10px;
+}
+
+.container-header {
+    width: 65%;
+}
+
+.navbar {
+    height: 80px;
+    border-radius: 0 0 10px 10px;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+.navbar-nav {
+    width: 300px;
+    justify-content: space-between;
+}
+
+.container-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.cartao-cadastro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #55a6ff38;
+    padding: 1.75rem;
+    width: 800px;
+}
+
+.cartao__titulo {
+    font-size: 28px;
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #d6eaff;
+}
+
+.divBotao {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}
+
+.botao {
+    background-color: #0071ea;
+    color: white;
+    border-radius: 7px;
+    width: 30%;
+    margin-top: 1rem;
+    padding: 15px;
+    font-size: 20px;
+}

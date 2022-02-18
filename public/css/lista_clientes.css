@@ -1,0 +1,89 @@
+.clientes-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tabela {
+    margin-top: 2.25rem;
+    width: 75%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #55a6ff38;
+    border-collapse: initial;
+    text-align: left;
+}
+
+.tabela td:first-of-type,
+.tabela th:first-of-type {
+    padding-left: 1.75rem;
+}
+
+.tabela thead {
+    font-size: 22px;
+}
+
+.tabela th {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    border-bottom: 1px solid #d6eaff;
+}
+
+.tabela td {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.tabela-botao-direita {
+    text-align: right;
+    padding-right: 5.75rem;
+}
+
+.tabela-coluna-id {
+    width: 15%;
+    font-size: 20px;
+}
+
+.tabela-coluna-nome {
+    width: 20%;
+    font-size: 20px;
+}
+
+.tabela-coluna-email {
+    width: 25%;
+    font-size: 20px;
+}
+
+.tabela-coluna-botao {
+    width: 50%;
+}
+
+.tabela tr:last-of-type td {
+    padding-bottom: 1.75rem;
+}
+
+.botao-simples {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.div-botao-adicionar {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+
+.tabela-botoes-controle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    padding-right: 1.75rem;
+}
+
+.tabela-botoes-controle li:first-of-type {
+    margin-right: 2.25rem;
+}
+
+.td {
+    padding: 1rem;
+}
